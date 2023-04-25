@@ -11,7 +11,7 @@ st.write('Le bollette saranno divise per tipo e verranno forniti dei grafici per
 
 
 
-acqua = float[27, 29, 50, 30]
+acqua = [27, 29, 50, 30]
 
 def acqua_list_filler():
     st.number_input(label="inserisci il valore delle utenze dell'acqua: ", )
