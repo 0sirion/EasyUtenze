@@ -14,13 +14,14 @@ acqua = [12, 22]
 data_acqua=[]
 
 def acqua_list_filler():
-    st.number_input(label="inserisci il valore delle utenze dell'acqua: ", )
+    st.number_input(label="inserisci il valore delle utenze dell'acqua: ")
     st.date_input(label="inserisci la data")
-    st.button(label="Premi per salvare il costo dell'utenza e la data")
+    st.button(label="Premi per salvare il costo dell'utenza e la data", on_click=acqua_list_filler())
 
 
 def main():
     acqua_list_filler()
+    st.write('hello!')
    
 
 
