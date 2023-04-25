@@ -16,7 +16,7 @@ acqua_data_list=[]
 
 
 def acqua_list_filler():
-    if x != "" :
+    if x != 0 :
         acqua_list.append(x)
         st.write(acqua_list)
 
