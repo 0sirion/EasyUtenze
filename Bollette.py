@@ -19,6 +19,7 @@ def acqua_list_filler():
     if x != 0 :
         acqua_list.append(x)
         st.write(acqua_list)
+        x = ""
 
 x = st.number_input(label="inserisci il valore delle utenze dell'acqua: ", max_value=100, )
 acqua_date = st.date_input(label="inserisci la data")
