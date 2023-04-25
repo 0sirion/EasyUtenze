@@ -4,7 +4,7 @@ import numpy as np
 import math as plt
 
 
-st.header(":#CD5C5C[Calcolatore Bollette]")
+st.header(":red[Calcolatore Bollette]")
 st.subheader(
     "Puoi utilizzare quest'applicazione per visualizzare le tue bollette")
 st.write('Le bollette saranno divise per tipo e verranno forniti dei grafici per visualizzarne meglio i dati in ordine cronologico')
