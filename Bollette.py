@@ -13,6 +13,9 @@ st.write('Le bollette saranno divise per tipo e verranno forniti dei grafici per
 acqua_list = []
 acqua_data_list=[]
 
+x = st.number_input(label="inserisci il valore delle utenze dell'acqua: ", max_value=100, )
+acqua_date = st.date_input(label="inserisci la data")
+my_button =st.button(label="Premi per salvare il costo dell'utenza e la data", on_click=acqua_list_filler())
 
 
 def acqua_list_filler():
@@ -21,9 +24,6 @@ def acqua_list_filler():
         st.write(acqua_list)
         x = ""
 
-x = st.number_input(label="inserisci il valore delle utenze dell'acqua: ", max_value=100, )
-acqua_date = st.date_input(label="inserisci la data")
-my_button =st.button(label="Premi per salvare il costo dell'utenza e la data", on_click=acqua_list_filler())
 
 
     
