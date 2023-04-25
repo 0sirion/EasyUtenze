@@ -16,11 +16,10 @@ acqua_data_list=[]
 
 
 def acqua_list_filler():
-    # acqua_list.append(x)
-   if my_button:
-      st.write(x)
+    if x != "" :
+        acqua_list.append(x.value)
 
-x = st.number_input(label="inserisci il valore delle utenze dell'acqua: ")
+x = st.number_input(label="inserisci il valore delle utenze dell'acqua: ", min_value=0, max_value=100, )
 acqua_date = st.date_input(label="inserisci la data")
 my_button =st.button(label="Premi per salvare il costo dell'utenza e la data", on_click=acqua_list_filler())
 
