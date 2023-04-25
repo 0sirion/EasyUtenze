@@ -10,7 +10,7 @@ st.subheader(
 st.write('Le bollette saranno divise per tipo e verranno forniti dei grafici per visualizzarne meglio i dati in ordine cronologico')
 
 
-acqua_list = [12, 22]
+acqua_list = []
 acqua_data_list=[]
 
 
