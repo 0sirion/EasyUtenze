@@ -16,8 +16,8 @@ acqua_data_list=[]
 
 
 def acqua_list_filler():
-    acqua_list.append(x)
-    st.write(acqua_list)
+    # acqua_list.append(x)
+    st.write(x)
 
 x = st.number_input(label="inserisci il valore delle utenze dell'acqua: ")
 acqua_date = st.date_input(label="inserisci la data")
