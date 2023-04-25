@@ -9,12 +9,13 @@ st.subheader(
     "Puoi utilizzare quest'applicazione per visualizzare le tue bollette")
 st.write('Le bollette saranno divise per tipo e verranno forniti dei grafici per visualizzarne meglio i dati in ordine cronologico')
 
-print("hello")
 
-acqua = [27, 29, 50, 30]
+
+acqua = float[27, 29, 50, 30]
 
 def acqua_list_filler():
     st.number_input(label="inserisci il valore delle utenze dell'acqua: ", )
+    st.date_input(label="inserisci la data")
 
 def main():
     acqua_list_filler()
